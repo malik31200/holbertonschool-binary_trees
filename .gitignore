@@ -1,8 +1,6 @@
-*
-!*.c
-*binary_tree_print.c
-!README.md
-!.gitignore
-!*.h
+# Generated output
+a.out
 
+# Given files
 *main.c
+binary_tree_print.c
