@@ -6,15 +6,15 @@
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
-    int bfactor;
-    
-    if (tree == NULL)
-    {
-        return (0);
-    }
+	int bfactor;
 
-    bfactor = binary_tree_height(tree->left) - binary_tree_height(tree->right);
+	if (tree == NULL)
+	{
+		return (0);
+	}
 
-    return (bfactor);q
+	bfactor = (binary_tree_height(tree->left) - binary_tree_height(tree->right));
+
+	return (bfactor);
 
 }
