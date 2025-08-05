@@ -12,7 +12,10 @@
  * @left: Pointer to the left child node
  * @right: Pointer to the right child node
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 21aa51d (Create a func that measure the height of the tree.)
 typedef struct binary_tree_s
 {
 	int n;
@@ -34,6 +37,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+<<<<<<< HEAD
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 void binary_tree_print(const binary_tree_t *tree);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
@@ -43,5 +47,9 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+=======
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+size_t binary_tree_height(const binary_tree_t *tree);
+>>>>>>> 21aa51d (Create a func that measure the height of the tree.)
 
 #endif
