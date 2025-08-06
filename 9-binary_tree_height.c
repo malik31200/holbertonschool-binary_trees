@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
-  * binary_tree_height - Measure the height of the tree.
-  * @tree: Pointer to the node's root.
-  *
-  * Return: Pointer to the new node.
-  */
+ * binary_tree_height - Measure the height of the tree.
+ * @tree: Pointer to the node's root.
+ *
+ * Return: Pointer to the new node.
+ */
 
 size_t binary_tree_height(const binary_tree_t *tree)
 {
