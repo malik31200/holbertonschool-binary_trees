@@ -14,6 +14,7 @@ This project was developed as our second group project at Holberton School, with
 [![GCC](https://img.shields.io/badge/gcc-13.3.0-blue)](#)
 
 ## 📁 Project Structure
+```txt
 .
 ├── 0-binary_tree_node.c
 ├── 1-binary_tree_insert_left.c
@@ -37,6 +38,7 @@ This project was developed as our second group project at Holberton School, with
 ├── README.md
 ├── binary_tree_print.c
 └── binary_trees.h
+```
 
 ## 👥 Authors
 - **[Franck S.](https://github.com/Franck-dev-hub)**
