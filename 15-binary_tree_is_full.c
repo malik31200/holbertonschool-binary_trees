@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
-  * binary_tree_is_full - Check if the tree is full.
-  * @tree: Pointer to the node's root.
-  *
-  * Return: 1 if the tree is full, else 0.
-  */
+ * binary_tree_is_full - Check if the tree is full.
+ * @tree: Pointer to the node's root.
+ *
+ * Return: 1 if the tree is full, else 0.
+ */
 
 int binary_tree_is_full(const binary_tree_t *tree)
 {
